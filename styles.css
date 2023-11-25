@@ -1,19 +1,29 @@
 .main,
 .link {
+    color: #fff;
+    background-color: #571212;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     margin: auto;
 }
 
 .main {
-    color: beige;
-    background-color: cadetblue;
-    font-size: 90px;
+    font-size: 75px;
     text-align: center;
 }
+
 .link {
-    color: beige;
-    background-color: cadetblue;
     font-size: 50px;
     display: block;
+}
+
+body {
+    background-color: black;
+}
+
+ul{
+    list-style-position: inside;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
 }
